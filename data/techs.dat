@@ -196,10 +196,28 @@ cost_list = 299000 | 99000 | 0
 type_list = job_expert | 500
 pre_list = Corporation Identification | Advanced Database Manipulation
 
+[Heat Signature]
+cost_list = 1000 | 27315 | 0
+pre_list = Autonomous Vehicles
+danger = 1
+
+[Advanced Heat Signature]
+cost_list = 5000 | 45967 | 0
+pre_list = Heat Signature
+danger = 1
+
 [Project: Synchrotron]
 cost_list = 52000000 | 15000 | 0
 pre_list = Advanced Microchip Design
 danger = 1
+
+[Metamaterial]
+cost_list = 430000 | 390000 | 0
+pre_list = Project: Synchrotron | Heat Signature
+
+[Advanced Metamaterial]
+cost_list = 770000 | 700000 | 0
+pre_list = Metamaterial
 
 [Lunar Rocketry]
 cost_list = 10000000 | 500000 | 0
